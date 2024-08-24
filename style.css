@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+
+:root {
+    --pc-blue: #38b6ff;
+  }
+
+.form-control::placeholder {
+    color: grey;
+    font-size: 1.5em;
+    opacity: 0.5;
+}
+
+body {
+    background-color: black;
+    font-family: "Trocchi";
+}
+
+.row .col-md-6 h1 {
+    display: inline;
+    font-weight: 700;
+}
+
+#logo-name {
+    color: var(--pc-blue);
+}
+
+#logo-dot {
+    color: white;
+    font-size: 3em;
+}
+
+.row .col-md-6 {
+    padding: 5em;
+}
+
+.text-center.text-white {
+    font-size: 3.5em;
+    padding: 2.5em;
+    line-height: 1.1em;
+}
+
+#malayalam {
+    color: var(--pc-blue);
+}
+
+.btn-signup {
+    color: black;
+    background-color: var(--pc-blue);
+}
+
+.btn-signup-page {
+    color: white;
+    background-color: var(--pc-blue);
+}
+
+.btn-login {
+    color: white;
+    background-color: black;
+    border-color: var(--pc-blue);
+}
+
+.btn-custom-size {
+    font-size: 2em;
+    width: 6em;
+}
+
+.row-buttons {
+    display: inline;
+}
+
+.home-img-border {
+    border: 6em solid var(--pc-blue);
+}
+
+.class-for-signup {
+    background: url(img/signup_img.jpg) no-repeat;
+    background-size: cover;
+}
+
+.container-signup {
+    background-color: white;
+    margin-top: 10em;
+}
+
+.border-input {
+    border: 2px solid black;
+}
+
+.signup-title {
+    color: var(--pc-blue);
+    font-weight: bold;
+}
+
+.login-question {
+    display: inline;
+}
+
+.login-link {
+    display: inline;
+}
+
+.login-btn-signup-page {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: var(--pc-blue);
+}
+
+.question-lable-signup-page {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    pointer-events: none;
+
+}
+
+.class-for-library {
+    background: url(img/library_img.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.library-banner {
+    display: inline-block;
+    background-color:var(--pc-blue);
+    color: white;
+    padding: 0.75em 0.5em;
+    margin: 0;
+}
+
+.banner-line {
+    opacity: 1;
+    border: 0.25em solid var(--pc-blue);
+    margin: 0;
+}
+
+.open-btn-library {
+    color: black;
+    background-color: var(--pc-blue);
+}
+
+.card-img-radius {
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+.card-style{
+    border: 0;
+    min-height: 35em;
+}
+
+.div-open-button {
+    margin-top: 3em;
+}
+
+.randamoozham-banner {
+    background: url(img/randamoozham-banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 10em;
+}
+
+.khasakkinte-itihasam-banner {
+    background: url(img/khasakkinte_itihasam_banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 10em;
+}
+
+.aarachaar-banner{
+    background: url(img/aarachaar-banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 10em;
+}
+
+.kayar-banner{
+    background: url(img/kayar-banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 10em;
+}
+
+.oru-desathinte-katha-banner {
+    background: url(img/oru-desathinte-katha-banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 10em;
+}
+
+
+.main-container {
+    margin-top: 0;
+}
+
+.title-text {
+    color: var(--pc-blue);
+    font-size: 3em;
+}
+
+.title-details{
+    color: white;
+    font-size: 1.5em;
+}
+
+.title-synopsis {
+    color: rgb(160, 160, 160);
+    font-style: italic;
+}
+
+.similar-reads {
+    background-color: var(--pc-blue);
+}
+
+.aside-heading {
+    color: white;
+}
+
+.aside-heading-dot {
+    color: black;
+}
+
+.article a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+
+.article p {
+    font-size: 1.5em;
+    font-style: italic;
+}
