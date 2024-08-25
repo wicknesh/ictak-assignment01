@@ -22,20 +22,23 @@ body {
 
 #logo-name {
     color: var(--pc-blue);
+    display: inline;
+    font-weight: 700;
 }
 
 #logo-dot {
     color: white;
     font-size: 3em;
+    display: inline;
 }
 
-.row .col-md-6 {
+/* .row .col-md-6 {
     padding: 5em;
-}
+} */
 
 .text-center.text-white {
     font-size: 3.5em;
-    padding: 2.5em;
+    padding: 1.5em;
     line-height: 1.1em;
 }
 
@@ -48,15 +51,28 @@ body {
     background-color: var(--pc-blue);
 }
 
+.btn-signup:hover {
+    background-color: white;
+}
+
 .btn-signup-page {
     color: white;
     background-color: var(--pc-blue);
+}
+
+.btn-signup-page:hover {
+    border-color: #38b6ff;
 }
 
 .btn-login {
     color: white;
     background-color: black;
     border-color: var(--pc-blue);
+}
+
+.btn-login:hover {
+    color: white;
+    background-color: var(--pc-blue);
 }
 
 .btn-custom-size {
@@ -69,11 +85,11 @@ body {
 }
 
 .home-img-border {
-    border: 6em solid var(--pc-blue);
+    border: 4em solid var(--pc-blue);
 }
 
 .class-for-signup {
-    background: url(img/signup_img.jpg) no-repeat;
+    background: url(img/signup_img.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -103,6 +119,10 @@ body {
     font-size: 1.5em;
     text-decoration: none;
     color: var(--pc-blue);
+}
+
+.login-btn-signup-page:hover {
+    color: black;
 }
 
 .question-lable-signup-page {
@@ -135,6 +155,10 @@ body {
 .open-btn-library {
     color: black;
     background-color: var(--pc-blue);
+}
+
+.open-btn-library:hover {
+    border-color: var(--pc-blue);
 }
 
 .card-img-radius {
