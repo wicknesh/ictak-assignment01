@@ -13,17 +13,18 @@
         <form>
             <a href="index.html"><img src="img/pc-logo-2.png" alt="pc-logo" width="75px" height="auto" class="mx-auto d-flex"></a>
             <div class="mb-5 h3 text-center">Create a <span class="signup-title">pusthakapuzhu collective</span>. account</div>
-            <div class="mb-3 d-flex align-items-center justify-content-center">
-                <input type="text" class="form-control w-50 p-3 border-input" id="InputUsername" placeholder="Username">
+            <div class="mb-5 d-flex align-items-center justify-content-center">
+                <input type="text" class="form-control w-50 p-3 border-input" id="InputEmail" placeholder="Email">
             </div>
-            <div class="mb-3 d-flex align-items-center justify-content-center">
+            <span id="emailError" class="d-flex justify-content-center"></span>
+            <div class="mb-5 d-flex align-items-center justify-content-center">
                 <input type="password" class="form-control w-50 p-3 border-input" id="InputPassword" placeholder="Password">
             </div>
-            <div class="mb-3 d-flex align-items-center justify-content-center">
+            <div class="mb-5 d-flex align-items-center justify-content-center">
                 <input type="password" class="form-control w-50 p-3 border-input" id="ReInputPassword" placeholder="Re-enter Password">
             </div>
             <div class="mb-5 d-flex align-items-center justify-content-center">
-                <a href="library.html" href="" class="btn btn-signup-page btn-lg rounded-3 w-50 btn-custom-size">Sign up</a>
+                <a onclick="return validate();" class="btn btn-signup-page btn-lg rounded-3 w-50 btn-custom-size">Sign up</a>
             </div>
             <div class="d-flex justify-content-center">
                 <a class="question-lable-signup-page" href="#">Already have an account?</a>
@@ -31,6 +32,7 @@
             </div>
         </form>
     </div>
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
