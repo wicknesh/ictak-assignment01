@@ -247,3 +247,9 @@ body {
     font-size: 1.5em;
     font-style: italic;
 }
+
+#showPWD, #showPWDLogin {
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+}
