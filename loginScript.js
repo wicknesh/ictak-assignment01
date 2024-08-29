@@ -45,3 +45,5 @@ function showPwdLogin() {
         loginPWD.type = "password";
     }
 }
+
+//Login script
