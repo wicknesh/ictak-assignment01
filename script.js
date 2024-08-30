@@ -45,6 +45,7 @@ pwd.addEventListener("keyup", function(){
     else {
         pwdValidity.innerText = 'Invalid password';
         pwdValidity.style.color = 'red';
+        flag = 0;
     }
     checkStrength(pwd.value, pwd);
 });
